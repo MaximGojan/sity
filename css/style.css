@@ -238,3 +238,31 @@ body {
   .wrapper-photo-mob {
       display: none;
   }
+
+
+.footer-wrapper {
+    margin-top: 134px;
+    margin-bottom: 60px;
+}
+.footer-discs {
+    display: flex;
+    justify-content: center;
+}
+.footer-discs > p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 14px;
+}
+.footer-photo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 25px;
+}
+.footer-discs {
+      justify-content: center;
+}
+.footer-photo-img {
+    padding-right: 34px;
+}
+.footer-photo-img:last-child {
+    padding-right: 0;
+}
