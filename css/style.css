@@ -15,6 +15,15 @@ body {
     margin-right: 58px;
     margin-left: 58px;
 }
+.header-menu-item > a {
+    color: #030303;
+}
+.header-menu-item > a:visited {
+    color: #000000;
+}
+.header-menu-item > a:hover {
+    color: #FF6464;
+}
 .header-mobile {
     display: none;
     width: 100%;
@@ -182,9 +191,11 @@ body {
 .card-info-p {
     margin: 0;
 }
+
+
+
+
 /* media topnav */
-
-
 
 .topnav {
     display: none;
@@ -192,7 +203,7 @@ body {
 .mobile-container {
     max-width: 100%;
     margin: auto;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .topnav {
@@ -240,6 +251,11 @@ body {
   }
 
 
+
+
+
+
+
 .footer-wrapper {
     margin-top: 134px;
     margin-bottom: 60px;
@@ -265,4 +281,54 @@ body {
 }
 .footer-photo-img:last-child {
     padding-right: 0;
+}
+
+
+
+
+.main-content-title {
+    margin-bottom: 60px;
+}
+
+.main-content-card:last-child {
+    margin-bottom: 0;
+}
+.card-data {
+    display: flex;
+}
+.card-data-year {
+    padding-right: 25px;
+    border-right: 1px solid;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+}
+.card-data-year > a {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #21243D;
+
+}
+.card-data-year {
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    
+}
+.card-discript > p {
+    margin-bottom: 29px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    padding-bottom: 27px;
+    border-bottom: 1px solid #E0E0E0;
+}
+.main-content-text {
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+}
+.card-text > p {
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    color: #8695A4;
 }

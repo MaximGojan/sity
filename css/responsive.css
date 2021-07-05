@@ -69,11 +69,22 @@
     .card-works-title {
         margin-top: 16px;
         margin-bottom: 17px;
+        
     }
     .card-works-date {
         display: flex;
         margin-bottom: 30px;
     }
+
+
+    .main-content-card {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .main-content-text {
+        padding-left: 18px;
+    }
+    
   }
 
 
